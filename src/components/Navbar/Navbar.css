@@ -1,0 +1,27 @@
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+nav img {
+  height: 30px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
