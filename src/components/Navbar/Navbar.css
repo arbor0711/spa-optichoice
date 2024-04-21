@@ -25,3 +25,10 @@ nav ul li {
   margin: 0 20px;
   font-weight: 700;
 }
+
+/* Add dark them after scrolling down for  */
+.dark {
+  background-color: #1e0d3b;
+  transition: 0.4s;
+  z-index: 10;
+}
