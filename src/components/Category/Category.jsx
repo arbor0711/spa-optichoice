@@ -2,6 +2,7 @@ import "./Category.css";
 import men from "../../assets/images/category-men.jpg";
 import women from "../../assets/images/category-women.jpg";
 import contactLens from "../../assets/images/category-contact-lenses.jpg";
+import Title from "../Title/Title";
 
 const ShoppingCategory = () => {
   const categories = [
@@ -23,12 +24,16 @@ const ShoppingCategory = () => {
   ];
   console.log(men);
   return (
-    <section className=" container">
-      <div className="programs">
+    <section className=" container categories-section">
+      <Title
+        title="Explore Our Optic Collections"
+        subTitle="Discover the Perfect Frames for Every Gaze"
+      />
+      <div className="categories">
         {categories.map((item) => {
           console.log(men);
           return (
-            <div className="program" key={item.category}>
+            <div className="category" key={item.category}>
               <img src={item.srcImg} alt={item.alt} />
               <h2>{item.category}</h2>
             </div>

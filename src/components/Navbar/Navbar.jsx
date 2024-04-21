@@ -9,7 +9,6 @@ const Navbar = () => {
         <li>Women</li>
         <li>Sunglasses</li>
         <li>Prescription Glasses</li>
-        <li>Virtual Try-On</li>
         <li>
           <button className="btn">Login</button>
         </li>
