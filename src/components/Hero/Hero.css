@@ -41,4 +41,16 @@
 }
 .hero button .icon {
   margin-left: 0.5rem;
+  transition: all 0.2s linear;
+}
+
+.hero h2 {
+  position: absolute;
+  bottom: 10px;
+}
+
+.hero button:hover {
+  .icon {
+    transform: translateX(0.1rem);
+  }
 }
